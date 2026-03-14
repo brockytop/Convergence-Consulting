@@ -1,0 +1,23 @@
+{
+  "name": "Convergence Consulting",
+  "short_name": "Convergence",
+  "description": "Strategic AI consulting and ethical automation for small and medium businesses.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0a0a0c",
+  "theme_color": "#c8b89a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
