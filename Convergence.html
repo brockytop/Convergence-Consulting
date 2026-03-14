@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Convergence AI - Strategic AI consulting for small and medium businesses. Ethical automation, training, and implementation from Nashville, TN.">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#c8b89a">
+    <link rel="apple-touch-icon" href="icon-192x192.png">
     <title>Convergence AI | Strategic AI Implementation for Growing Businesses</title>
 
     <!-- Premium Fonts -->
@@ -2207,6 +2210,19 @@
         });
 
     })();
+    </script>
+     <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js')
+        .then(registration => {
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        })
+        .catch(err => {
+          console.log('ServiceWorker registration failed: ', err);
+        });
+    });
+  }
     </script>
 </body>
 </html>
